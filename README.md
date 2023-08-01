@@ -1,10 +1,10 @@
-# articles
+# publications
 Articles, papers, blogs, presentations, and posts written by [Robb Manes](https://robbmanes.com).
 
 ## Reading
 To view the articles in this repository outside of their Markdown format, click the following links to the appropriate Github Pages sites:
-- https://github.io/robbmanes/articles
-- https://robbmanes.com/articles
+- https://github.io/robbmanes/publications
+- https://robbmanes.com/publications
 
 ## Building
 This repository is built with [`mkdocs`](https://www.mkdocs.org).  You probably have no need to build this repository as you can view the content at the above links.

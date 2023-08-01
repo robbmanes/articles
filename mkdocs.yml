@@ -1,4 +1,6 @@
 site_name: robbmanes/articles
-site_url: https://robbmanes.com/articles
+site_url: https://robbmanes.com/publications
 remote_branch: gh-pages
-repo_url: https://github.com/robbmanes/articles
+repo_url: https://github.com/robbmanes/publications
+nav:
+  - Index: 'index.md'
