@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://robbmanes.com/publications/what_a_video_game_for_kids_can_teach_you_about_software_engineering_and_infrastructure/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>What a Video Game for Kids can Teach you about Software Engineering and Infrastructure - robbmanes/publications</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">robbmanes/publications</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/robbmanes/publications/edit/master/docs/what_a_video_game_for_kids_can_teach_you_about_software_engineering_and_infrastructure.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#what-a-video-game-for-kids-can-teach-you-about-software-engineering-and-infrastructure" class="nav-link">What a Video Game for Kids can Teach you about Software Engineering and Infrastructure</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="what-a-video-game-for-kids-can-teach-you-about-software-engineering-and-infrastructure">What a Video Game for Kids can Teach you about Software Engineering and Infrastructure</h1>
+<p>This article is published at:
+- <a href="https://dev.to/robbmanes/what-a-video-game-for-kids-can-teach-you-about-software-engineering-and-infrastructure-29i1">dev.to</a></p>
+<p>I'm an avid gamer.  I play almost everything, and most recently I've been getting in to automation games like <a href="https://store.steampowered.com/app/526870/Satisfactory/">Satisfactory</a> or <a href="https://store.steampowered.com/app/427520/Factorio/">Factorio</a>.  After hundreds of hours in building factories in these games my Steam recommendations decided to show me <a href="https://store.steampowered.com/app/979120/Autonauts/">Autonauts</a>, and at first glance I was a bit appalled at the recommendation.  It seemed very childish and the playground-toys theme turned me off of it for a while, until one day I decided to pick it up and, over the next one hundred hours of play, realized it was the absolute best simulation of <em>all</em> of the facets of IT Infrastructure I've ever seen.</p>
+<p>Simulations of real-world engineering and software exist everywhere in video games these days.  I was shocked at how extensive you could make faux electronical devices in <a href="https://www.minecraft.net/en-us">Minecraft</a> when the Redstone update was introduced, and a quick search on your favorite web browser will show people have made entire in-game CPU'S and complex computational devices in massive feats of computer engineering - all within a game about surviving and crafting.</p>
+<p>There are quite a few <em>pure</em> programming games out there; I love <a href="https://www.zachtronics.com/">Zachtronics</a> games, which between <a href="https://store.steampowered.com/app/504210/SHENZHEN_IO/">Shenzen I/O</a>, <a href="https://store.steampowered.com/app/370360/TIS100/">TIS-100</a>, and <a href="https://store.steampowered.com/app/300570/Infinifactory/">Infinifactory</a>, can satisfy my need for programming outside of work.  I'm a huge fan of pure logic games as well such as <a href="https://store.steampowered.com/app/736260/Baba_Is_You/">Baba is You</a>, which looks playful but carries a deep approach to puzzle solving utilizing rulesets.  This being said, the target audiences for these games are clearly those who enjoy logic puzzles and already have some experience in them, perhaps an older-than-teenager audience.</p>
+<p>Back to Autonauts.  I launched the game with the images I'd seen so far in mind; everything was blocky and cute, and everything had a smile on it in a preschool-wonderland sort of way.  Like any other "Survival Crafting" game, was put in an untamed area and had to scavenge for basic resources to begin the progression from humble vagrant to planetary tycoon as so many other games encourage the player to do.  I made a workbench with my own hands, made an axe, and started chopping down trees and refining logs into planks.</p>
+<p><img alt="Welcome to the middle of nowhere, population you." src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fgpcfhrok6bz12tfhbmx.jpg" /></p>
+<p>After the initial work, the tooltips encouraged me to craft a workbench specifically to make robots, or "Bots".  I did so, and then used it to craft my first Bot, and then the true genius of Autonauts began to shine.</p>
+<p>Using my new Bot, I was able to "Teach" it to chop trees for me by simply mirroring the action.  As I did so, the Bot translated this into a <a href="https://scratch.mit.edu/">Scratch-like</a> language on-the-fly with simple instructions that I could click and drag, including the addition of loops or if/else statements with drop-down qualifiers.  It was very simple, and then after a few more Bots and a few more sessions of teaching and rearranging codeblocks, I had a fully automated forestry operation going, complete with re-planting.</p>
+<p><img alt="Look out new world, the gentle touch of automation is here." src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/btubve7in9uemeqi8ish.jpg" /></p>
+<p>At this point, I realized I likely never had to chop down a tree by hand in this game again.</p>
+<p>Things began to quickly accelerate.  I had quarries of stone and clay worked by machine hands, courier networks delivering to a central warehouse, and teams of assemblers/crafters distributing tools such as axes, picks, and shovels to the various resource sites, each managed autonomously and independently in teams of Bots.  Bots need to be "recharged" by turning a crank, and while I did this by hand, after a hundred Bots were made I made a special team of Bots to turn the cranks on other Bots, removing all of the human intervention everywhere I could in a flurry of automation.</p>
+<p>Eventually, after certain milestones I received upgrades; I could now craft machines that made "Colonists" and with that came a lot of new technologies to dabble in such as Agriculture.</p>
+<p>I now had "Colonists" to take care of, babies spawned out of a machine that needed food, housing, and clothing.  I set up these teams quickly, creating Bot-tended fields of berries and lettuce, and setting up orchards of Apple trees.  I created a fishing team, catching and slicing up salmon, and fed everything to the colonist-babies I suddenly was responsible for.  My automatic empire grew to support these colonists, and in return colonists produce a resource called "Wuv" which really are just tokens you can put in a sort of Research Machine to advance your technological level, letting you build new machines and better Bots.  Eventually even the <em>colonists</em> themselves leveled up, growing into having more and more needs, and I had to adapt previous teams of Bots and make entire new teams to hit the ever-shifting target of needs for these growing colonists.</p>
+<p><img alt="Birds eye view of the craziness." src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/72vms807ee67xze7bcu5.jpg" /></p>
+<p>It wasn't until I had to do my first very-real upgrade problem of infrastructure that all of the similarities of my experience in IT, Development, and Infrastructure began to figuratively bash my head in.  The problem was this: I had a large number of entry-level Bots which are slow and have multiple drawbacks, but were otherwise working just fine.  I had intermixed teams of Bots of varying levels and effectiveness, and it was creating intermittent poor performance for one of my teams as sometimes there would be a surplus of materials and other times a drought as the different-level worker Bots performed tasks at different rates.  I sought to consolidate skill levels by upgrading teams to the new <code>Mk 2</code> level of Bot, and decommission the old ones, and went about doing so.  There were a few hiccups, but I had felt I had everything under control until I scrolled to a side of my base and saw this:</p>
+<p><img alt="Behold, the Salmon abomination." src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/emg4wb1wlgn9k64hels2.jpg" /></p>
+<p>That is a tower of stacked and still wriggling salmon that is reaching the stratosphere.</p>
+<p>I couldn't find the problem immediately.  I went to the fishing teams, and couldn't see which unit was responsible for the salmon; I had just replaced my older Bots.  So then I realized I had switched the duty to "fetching" the salmon to my Kitchen team, which led me to the culprit; the sole "Salmon Fetcher" Bot had a "If crate of salmon is full" instead of "If crate of salmon is NOT full" clause which caused it to run once and then ponder what to do ever after.  Therefore, the fisher Bot just kept fishing, and piling the salmon on top of each other, forever.  I thought I had directly copied this code to fetch salmon from an older Bot but clearly I had changed something incorrectly in the course of my upgrade, and really had no way to know what was different.</p>
+<p>This isn't the only example I could make of this being a direct allegory to positions in DevOps, Product Manager, Development, QA, Support, or any really software infrastructure position.  The Colonists are really just customers who have the very-real shifting expectations of delivery as their needs are being met in various ways.  Upgrading my infrastructure was always a hassle, and I had to make decisions on when and where to impact my production based on what was most important to me at the time.  I had to decide which Services mattered most, and observe multiple failures to ensure that all edge-cases were caught lest suddenly there be unexpected downtime in production until the issue was caught, rectified, and prevented for the future.</p>
+<p>One specific, important example I'd like to share is when I had to shift my "services" from a monolithic model to a microservice model.  As my requirements and physical areas to access expanded, it became better to have resources not all made in my central "factory", so I undertook an effort to move certain types of goods to be made in different locations; tools would be built in the "tool" factory, food and such would be processed in a specific location, etc.</p>
+<p>There are so many examples of how this game is the perfect, most real-world example of working in IT that I can't list them all.  It is a children's learn-to-programming game that I found to be an excellent (and intensely fun) description of what working in IT Infrastructure is like, from a myriad of positions and roles which you have to take upon yourself.  The game has no real consequence of failure; your colonists/customers can't leave you or "die" (yet, the game has a new "survival" mode coming out apparently) so it's very forgiving, especially when you forget to feed your customers for a week or so.</p>
+<p>All in all, I'm overjoyed at finding this game, and I encourage everyone who's interested in this sort of thing to pick it up.  It seems fairly age appropriate for all levels, and it truly is the best <em>real</em> simulation of my experience working in IT so far.  Bravo to the developers.  By the end of my 100 hours, I'd advanced decently far (I am a slow perfectionist in these games) but still have plenty to unlock, but am quite happy with my operation thusfar.  Perhaps this isn't your thing, but I found this to be truly an exceptional example of "what do I do for a living" in a gamified, simplified way.</p>
+<p><img alt="Bots making bots." src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2pv24881b1urflfayrlb.jpg" /></p>
+<p>May you catch your bugs early and often, lest they pile up in a tower of wriggling salmon that pierces the heavens.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/jquery-3.6.0.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
